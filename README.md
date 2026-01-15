@@ -34,5 +34,18 @@ The script supports **batch processing** and a **retry mechanism**, allowing it 
 
 ## Execute the script
 
+1. Create a virtual environment and install pylast within it
+
 ```bash
-python3 love_tracks_lastfm.py
+python3 -m venv ~/navidrome_lastfm_venv
+source ~/navidrome_lastfm_venv/bin/activate
+pip install --upgrade pip
+pip install pylast
+```
+
+2. Run the script from the virtual environment
+
+```bash
+python love_tracks_lastfm.py
+```
+
