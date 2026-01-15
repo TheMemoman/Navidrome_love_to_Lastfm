@@ -1,5 +1,6 @@
 # Navidrome_love_to_LastFM
 A Python script to synchronize your loved tracks from your Navidrome database to your Last.fm profile.
+A maintenance script to run at your discretion, updating loved songs in Navidrome. This is necessary because loved songs do not sync automatically, even when Navidrome and Last.fm are configured to sync scrobbles.
 
 ## Description
 
