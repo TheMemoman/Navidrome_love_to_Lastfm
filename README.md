@@ -24,14 +24,14 @@ The script supports **batch processing** and a **retry mechanism**, allowing it 
 
 ## Configure the following variables
 
-| Name           | Description                                                                                     | Suggested Value                     |
-|----------------|-------------------------------------------------------------------------------------------------|------------------------------------|
-| `DB_PATH`      | Path to your Navidrome SQLite database                                                          | `/path/to/navidrome.db`            |
-| `API_KEY`      | Your Last.fm API key (see [last.fm API docs](https://www.last.fm/api/authentication)) | `xxxxxxxxxxxxxxxxxxx`               |
-| `API_SECRET`   | Your Last.fm API secret (see [last.fm API docs](https://www.last.fm/api/authentication)) | `xxxxxxxxxxxxxxxx`                  |
-| `SESSION_KEY`  | Your Last.fm session key (from authentication)                                                 | `xxxxxxxxx`                         |
-| `START_DATE`         | Starting date limit to avoid uploading all likes every time. Can be the date of the latest execution           | `"2025-01-01"`                     |
-| `END_DATE`           | Ending date limit. Can be the date of the current execution                                                    | `"2026-01-15"`                     |
+| Name           | Description                                                                                                          | Suggested Value                    |
+|----------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| `DB_PATH`      | Path to your Navidrome SQLite database                                                                               | `/path/to/navidrome.db`            |
+| `API_KEY`      | Your Last.fm API key (see [last.fm API docs](https://www.last.fm/api/authentication))                                | `xxxxxxxxxxxxxxxxxxx`              |
+| `API_SECRET`   | Your Last.fm API secret (see [last.fm API docs](https://www.last.fm/api/authentication))                             | `xxxxxxxxxxxxxxxx`                 |
+| `SESSION_KEY`  | Your Last.fm session key (see [this other script for it](https://github.com/TheMemoman/lastfm_Get_Session_Key))      | `xxxxxxxxx`                        |
+| `START_DATE`   | Starting date limit to avoid uploading all likes every time. Can be the date of the latest execution                 | `"2025-01-01"`                     |
+| `END_DATE`     | Ending date limit. Can be the date of the current execution                                                          | `"2026-01-15"`                     |
 
 ## Execute the script
 
